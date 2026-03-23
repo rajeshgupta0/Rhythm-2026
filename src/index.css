@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 230 60% 3%;
+    --foreground: 210 40% 95%;
+
+    --card: 220 50% 8%;
+    --card-foreground: 210 40% 95%;
+
+    --popover: 220 50% 8%;
+    --popover-foreground: 210 40% 95%;
+
+    --primary: 190 100% 50%;
+    --primary-foreground: 230 60% 5%;
+
+    --secondary: 30 100% 50%;
+    --secondary-foreground: 230 60% 5%;
+
+    --muted: 220 30% 15%;
+    --muted-foreground: 215 20% 60%;
+
+    --accent: 35 100% 65%;
+    --accent-foreground: 230 60% 5%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 30% 18%;
+    --input: 220 30% 18%;
+    --ring: 190 100% 50%;
+
+    --radius: 0.75rem;
+
+    /* Custom tokens */
+    --neon-blue: 190 100% 50%;
+    --dark-blue: 218 75% 15%;
+    --orange: 24 100% 50%;
+    --golden: 30 100% 64%;
+    --deep-bg: 240 60% 3%;
+
+    --gradient-tech: linear-gradient(135deg, hsl(190 100% 50%), hsl(218 75% 25%));
+    --gradient-culture: linear-gradient(135deg, hsl(24 100% 50%), hsl(30 100% 64%));
+    --gradient-fusion: linear-gradient(90deg, hsl(190 100% 50%), hsl(260 60% 50%), hsl(24 100% 50%));
+
+    --glass-bg: hsla(220, 50%, 8%, 0.6);
+    --glass-border: hsla(210, 40%, 95%, 0.1);
+
+    --shadow-neon-blue: 0 0 30px hsla(190, 100%, 50%, 0.3);
+    --shadow-neon-orange: 0 0 30px hsla(24, 100%, 50%, 0.3);
+
+    --sidebar-background: 220 50% 6%;
+    --sidebar-foreground: 210 40% 95%;
+    --sidebar-primary: 190 100% 50%;
+    --sidebar-primary-foreground: 230 60% 5%;
+    --sidebar-accent: 220 30% 15%;
+    --sidebar-accent-foreground: 210 40% 95%;
+    --sidebar-border: 220 30% 18%;
+    --sidebar-ring: 190 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+@layer utilities {
+  .glass-card {
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+  }
+
+  .gradient-text-fusion {
+    background: var(--gradient-fusion);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .gradient-text-tech {
+    background: var(--gradient-tech);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .gradient-text-culture {
+    background: var(--gradient-culture);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .glow-blue {
+    box-shadow: var(--shadow-neon-blue);
+  }
+
+  .glow-orange {
+    box-shadow: var(--shadow-neon-orange);
+  }
+
+  .gradient-border {
+    position: relative;
+  }
+
+  .gradient-border::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    padding: 1px;
+    border-radius: inherit;
+    background: var(--gradient-fusion);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+  }
+
+  .section-padding {
+    @apply py-20 md:py-28 px-4 md:px-8;
+  }
+}
