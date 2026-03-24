@@ -22,6 +22,7 @@ import drama from "@/assets/events/drama.jpg";
   import egame from "@/assets/events/esports.jpg";
  import tech from "@/assets/events/techquiz.jpg";
 import omic from "@/assets/events/openmic.jpg";
+import djday from "@/assets/events/dj.jpg";
 type Event = {
   title: string;
   description: string;
@@ -55,6 +56,7 @@ const eventsData: Event[] = [
      { title: "Fashion Show & Ramp Walk", description: "A prestigious ramp walk event featuring traditional, western, and fusion styles, where participants showcase confidence, creativity, and stage presence.", date: "March 29, 2026", time: "3:00 PM", venue: "Fest Ground", highlights: ["Men & Women categories", "Ramp Walk"], category: "Cultural", image: framp },
   { title: "Drama", description: "A grand theatrical showcase where participants bring powerful stories to life through expressive acting, compelling narratives, and captivating stage presence, reflecting creativity, emotion, and artistic excellence.", date: "26 March 2026", time: "11:00 AM", venue: "Fest Ground", highlights: ["Team Performance", "Theatrical Presentation", "Creative Expression"], category: "Cultural", image: drama },
    { title: "Freshers' Event", description: "A grand fresher’s celebration welcoming new students with elegance and excitement, featuring vibrant performances, introductions, and a lively atmosphere that marks the beginning of their memorable journey.", date: "25 March 2026", time: "3:00 PM", venue: "Fest Ground", highlights: ["Dancing", "Singing", "Drama"], category: "Cultural", image: fs },
+   { title: "DJ Day", description: An electrifying DJ Day filled with high-energy beats, vibrant lights, and a thrilling crowd atmosphere. Experience non-stop music, dance, and excitement as the fest ground transforms into a lively celebration zone.", date: "26 March 2026", time: "2:00 PM", venue: "Fest Ground", highlights: ["Live DJ", "Dance Floor", "Lighting Show"], category: "Cultural", image: djday },
   
   { title: "Face Painting & Poster Making", description: "Design impactful Design of  posters and Faces on social themes blending artistic expression with meaningful messages.", date: "27 March 2026", time: "11:00 AM", venue: "Engineering Graphic Lab", highlights: ["On-the-spot", "All mediums", "Display exhibition"], category: "Fine Arts", image: posterMakingImg },
 ];
