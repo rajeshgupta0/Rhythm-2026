@@ -22,7 +22,7 @@ import drama from "@/assets/events/drama.jpg";
   import egame from "@/assets/events/esports.jpg";
  import tech from "@/assets/events/techquiz.jpg";
 import omic from "@/assets/events/openmic.jpg";
-import djday from "@/assets/events/dj_night.jpg";
+import djday from "@/assets/events/dj_night.jpeg";
 type Event = {
   title: string;
   description: string;
