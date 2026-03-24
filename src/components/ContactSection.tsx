@@ -6,7 +6,6 @@ const contacts = [
   {
     role: "Director",
     name: "Prof. Yogendra Narain Singh",
-    phone: "+91 98765 43210",
     email: " director@recp.ac.in",
   },
   {
@@ -20,6 +19,24 @@ const contacts = [
     name: "Er. Asit Singh",
     phone: "05343-297424",
     email: "dosw.recpratapgarh@gmail.com",
+  },
+  {
+    role: "Fest Student Coordinaror",
+    name: "Praval Sexana",
+    phone: "7533828012",
+    email: "rhythm2026@recp.ac.in",
+  },
+  {
+    role: "Fest Student Coordinator",
+    name: "Riya Kumari",
+    phone: "8076961509",
+    email: "rhythm2026@recp.ac.in",
+  },
+  {
+    role: "Fest Student Coordinator",
+    name: "Rupali Shrama",
+    phone: "7080681941",
+    email: "rhythm2026@recp.ac.in",
   },
 ];
 
