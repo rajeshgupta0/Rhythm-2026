@@ -6,8 +6,7 @@
 
 It combines clean UI, fast performance, and smart discovery to create a seamless music exploration experience.
 
-🎬 Live Preview
-<p align="center"> <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="750"/> </p>
+<p align="center"> <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" width="750"/> </p> <p align="center"> 🎉 Experience the vibe of a live music fest — lights, beats, and energy all in one place 🎶 </p>
 🚀 Key Features
 
 🌟 Personalized Music Suggestions – Tailored recommendations just for you
