@@ -4,8 +4,8 @@ import { Music2, Shirt, Mic2, PartyPopper } from "lucide-react";
 
 const highlights = [
   {
-    title: "DJ ",
-    description: "An electrifying Day of beats and bass drops to set the campus on fire.",
+    title: "DJ Day ",
+    description: "DJ Day is a celebration of the art and energy that DJs bring to music and events..",
     icon: Music2,
     gradient: "from-neon-blue to-dark-blue",
     glow: "glow-blue",
