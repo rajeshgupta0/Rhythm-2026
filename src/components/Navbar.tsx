@@ -9,7 +9,6 @@ const navLinks = [
   { label: "Highlights", href: "#highlights" },
   { label: "Schedule", href: "#schedule" },
   { label: "Gallery", href: "#gallery" },
-  { label: "Contact", href: "#contact" },
 ];
 
 const Navbar = () => {
