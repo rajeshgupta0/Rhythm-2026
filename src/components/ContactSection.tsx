@@ -43,7 +43,7 @@ const contacts = [
   },
   {
     role: "Fest Student Coordinator",
-    name: "Rupali Sharama",
+    name: "Rupali Sharma",
     phone: "7080681941",
     email: "rhythm2026@recp.ac.in",
   },
