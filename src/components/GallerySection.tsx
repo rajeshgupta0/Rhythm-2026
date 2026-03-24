@@ -5,7 +5,7 @@ const galleryItems = [
   { label: "Stage Performances", span: "col-span-2 row-span-2" },
   { label: "Tech Workshops", span: "col-span-1 row-span-1" },
   { label: "Cultural Dance", span: "col-span-1 row-span-1" },
-  { label: "Robo Race", span: "col-span-1 row-span-1" },
+  { label: "Freshers", span: "col-span-1 row-span-1" },
   { label: "Campus Vibes", span: "col-span-1 row-span-1" },
   { label: "Art & Rangoli", span: "col-span-2 row-span-1" },
 ];
