@@ -163,7 +163,7 @@ const HeroSection = () => {
               Bharat Ratna Babasaheb Bhimrao Ambedkar
             </h2>
             <h2 className="font-semibold text-white/80 tracking-wide text-[clamp(35px,1vw,18px)]">
-              Rajkiya Engineering College, Pratapgarh
+              Rajkiya Engineering College Pratapgarh
             </h2>
           </div>
 
