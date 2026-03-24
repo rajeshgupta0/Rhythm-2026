@@ -24,6 +24,12 @@ const contacts = [
     email: "dosw.recpratapgarh@gmail.com",
   },
   {
+    role: "Fest Coordinator",
+    name: "Er. Dinesh Kumar",
+    phone: "05343-297424",
+    email: "Dinesh@recp.ac.in",
+  },
+  {
     role: "Fest Student Coordinator",
     name: "Praval Sexana",
     phone: "7533828012",
