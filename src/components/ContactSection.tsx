@@ -3,12 +3,14 @@ import { motion, useInView } from "framer-motion";
 import { Mail, Phone, Instagram, Youtube, Linkedin } from "lucide-react";
 
 const contacts = [
-  {
+  
+    {
     role: "Director",
-    name: "Prof. Yogendra Narain Singh",
+    name:"Prof. Yogendra Narain Singh",
     phone: "05343-297424",
-    email: " director@recp.ac.in",
+    email: "director@recp.ac.in",
   },
+  
   {
     role: "Dean Academics",
     name:" Dr. Arvind Kumar Verma",
