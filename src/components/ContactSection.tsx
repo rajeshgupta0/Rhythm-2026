@@ -6,7 +6,7 @@ const contacts = [
   {
     role: "Director",
     name: "Prof. Yogendra Narain Singh",
-     phone: "05343-297424",
+    phone: "05343-297424",
     email: " director@recp.ac.in",
   },
   {
