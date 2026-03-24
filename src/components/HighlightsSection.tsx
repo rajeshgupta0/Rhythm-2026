@@ -25,7 +25,7 @@ const highlights = [
     glow: "glow-orange",
   },
   {
-    title: "Fresher's Event",
+    title: "Freshers' Event",
     description: "A warm welcome to the newest members of our college family with fun and performances.",
     icon: PartyPopper,
     gradient: "from-dark-blue to-neon-blue",
